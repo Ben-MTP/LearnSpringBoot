@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ShopeRoomDecor
+Bundle-SymbolicName: ShopeRoomDecor
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: ShopeRoomDecor
+Export-Package: com.manhkm.controller,
+ manhkm
