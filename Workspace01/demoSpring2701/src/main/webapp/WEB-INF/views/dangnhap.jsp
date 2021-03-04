@@ -1,55 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign Up Form by Colorlib</title>
-
-    <!-- Font Icon -->
-    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
-
-    <!-- Main css -->
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="ISO-8859-1">
+<title>Page dang nhap</title>
 </head>
 <body>
-
-    <div class="main">
-
-        <div class="container">
-            <div class="signup-content">
-                <form method="POST" id="signup-form" class="signup-form">
-                    <h2>Sign up </h2>
-                    <p class="desc">to get discount 10% when pre - order <span>“Batman Beyond”</span></p>
-                    <div class="form-group">
-                        <input type="text" class="form-input" name="name" id="name" placeholder="Your Name"/>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-input" name="email" id="email" placeholder="Email"/>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-input" name="password" id="password" placeholder="Password"/>
-                        <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
-                    </div>
-                    <div class="form-group">
-                        <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
-                        <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" name="submit" id="submit" class="form-submit submit" value="Sign up"/>
-                        <a href="#" class="submit-link submit">Sign in</a>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- JS -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+	<h2>Page Dang Nhap</h2>
+	<br/>
+	<form method="POST">
+		Ten dang nhap: <input type="text" name="tendangnhap"/><br/>
+		Mat khau: <input type="password" name="matkhau"/><br/>
+		
+		<input type="submit" value="Login"/><br/>
+	</form>
+</body>
 </html>

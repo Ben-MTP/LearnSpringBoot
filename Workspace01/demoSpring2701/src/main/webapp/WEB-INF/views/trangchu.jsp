@@ -4,7 +4,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<mvc:resources mapping="/resources/**" location="/WEB-INF/resources/theme1/" />
 	<link rel="stylesheet" href="resources/styles.css"/>
 	<meta charset="ISO-8859-1">
 	<title>Home JSP</title>
